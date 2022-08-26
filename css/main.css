@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: #00004A;
+    padding: 0;
+    margin: 0;
+}
+h4 {
+    text-align: center;
+    color: #fff;
+}
+/*
+ul {
+    margin:10px auto;
+    padding:0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap:10px;
+    width: 80%;
+}
+ul li {
+    display: grid-item;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #1aff00;
+    color: #fff;
+}
+ul li:hover {
+    cursor: pointer; 
+}
+*/
+
+
+/* BUTTON GROUP */
+.button_group {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:#1aff00;
+    border: none;
+    border-radius: 15px;
+  }
+  
+  .button_group:hover {background-color: #3e8e41}
+  
+  .button_group:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .button_group:disabled{
+        opacity: 0.65; 
+        cursor: not-allowed;
+  }
+
+  
+/* BTN AREA */
+.button_area{
+    text-align: center ;
+}
+
+/* BTN RESOLVE */
+.resolve {
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+
+    text-align: center;
+    padding: 10px;
+    background-color: #cc6432;
+    width: 50%;
+    margin: 1% 25% auto;
+  }
+  
+  .resolve:hover {background-color: #8e7f3e}
+  
+  .resolve:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .resolve:disabled{
+    opacity: 0.65; 
+    cursor: not-allowed;
+}
+
+ 
